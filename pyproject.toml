@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "dl-scratch3"
+version = "0.1.0"
+description = ""
+authors = ["patrashu <qhdrmfdl123naver.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.26.2"
+pandas = "^2.1.3"
+
+
+[[tool.poetry.source]]
+name = "pytorch"
+url = "https://download.pytorch.org/whl/cu117"
+priority = "explicit"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
