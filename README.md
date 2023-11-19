@@ -31,11 +31,15 @@ poetry install
 Install pytorch in poetry
 
 ```pwsh
-poetry source add -p explicit pytorch https://download.pytorch.org/whl/cu117
-poetry add --source pytorch torch torchvision==0.15.0
-poetry run python -c "import torch;print(torch.cuda.is_available())"
+poetry source add -p explicit pytorch https://download.pytorch.org/whl/cu118
+poetry add --source pytorch torch torchvision
+poetry run python -c "import torch;print(torch.cuda.is_available())"  ## check pytorch installed
 poetry add black flake8 mypy isort --group dev
+poetry install
 ```
+
+
+
 
 <br><br>
 <hr>
