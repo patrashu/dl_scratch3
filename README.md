@@ -48,11 +48,12 @@ poetry add black flake8 mypy isort --group dev
 
 |Chapter List|Date|
 |----|---------|
-|Chapter 1|2023.11.18 ~ 2023.11.19|
-|Chapter 2|-|
-|Chapter 3|-|
-|Chapter 4|-|
-|Chapter 5|-|
+|Environment setting|2023.11.18 ~ 2023.11.19|
+|Chapter 1 Traning|2023.11.20|
+|Chapter 2 Traning|-|
+|Chapter 3 Traning|-|
+|Chapter 4 Traning|-|
+|Chapter 5 Traning|-|
 
 <hr>
 
