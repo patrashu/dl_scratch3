@@ -25,7 +25,7 @@
 - 역전파는 기본적으로 <b>Chain rule</b>를 따름.
 - Chain rule에 따르면 합성함수의 미분은 구성 함수 각각을 미분한 후 곱한 것과 동일함.
 <img width=500 src=https://github.com/patrashu/dl_scratch3/assets/78347296/fae76075-2930-485a-a4fa-fc55e1f8e0ce>
-- y의 ~~에 ㄷ대한 미분 값이 입력 쪽으로(역방향으로) 전파되고 있음.
+- y의 ~~에 대한 미분 값이 입력 쪽으로(역방향으로) 전파되고 있음.
 
 ### Define-by-run
 
