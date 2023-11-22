@@ -17,14 +17,6 @@ class Variable:
     def set_creator(self, func: 'Function'):
         self.creator = func
 
-    """
-    def backward(self):
-        f = self.creator
-        if f is not None:
-            x = f.input
-            x.grad = f.backward(self.grad)
-            x.backward()
-    """
     def backward(self):
         if self.grad is None:
             self.grad = np.ones_like(self.data)  ## data와 grad의 type을 맞춰줌.
@@ -36,8 +28,7 @@ class Variable:
             x.grad = func.backward(y.grad)
             
             if x.creator is not None:
-                funcs.append(x.creator)
-    
+                funcs.append(x.creator)  
 
 
 class Function:
